@@ -1,0 +1,13 @@
+<div class="col-md-4">
+    <a href="/beers/{{this.id}}">
+    <div class="card">
+        <img class="card-img-top mx-auto" src="{{this.image_url}}" alt="{{this.name}}">
+        <h5 class="card-title">
+            {{this.name}}
+        </h5>
+        <p class="card-text">Number in the list: {{@index}} </p>
+        <p class="card-text">{{this.description}}</p>
+        <p class="card-text font-weight-bold">{{this.tagline}}</p>
+    </div>
+    </a>
+</div>
